@@ -1,0 +1,13 @@
+#!/bin/bash
+cd ~/Desktop/pcl/2/5_fpfh/build
+declare -i var
+var=1
+cp -r ~/Desktop/pcl/dataset/10.downsampled_dataset/* ~/Desktop/pcl/2/5_fpfh/build
+for i in *pcd; do
+    ./fpfh $i
+    mv features.pcd ~/Desktop/pcl/dataset/11.features/$i
+done
+for i in *pcd; do
+    rm $i
+    var=$((var+1))
+done 
