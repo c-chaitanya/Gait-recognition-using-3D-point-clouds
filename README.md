@@ -2,7 +2,7 @@
 
 This code is for the linux version of PCL edited using sublime text.
 
-Download my dataset from https://www.dropbox.com/s/h8yf34s0vhs2bmq/original_dataset.rar but it is advised that you create your own using the openni framework. Just make sure that you change the code accordingly if the kinect model is not 1004 model and make sure that there is no sunlight while gatering data.
+it is advised that you create your own dataset using the openni framework. Just make sure that you change the code accordingly if the kinect model is not 1004 model and make sure that there is no sunlight while gatering data.
 
 Bash scripts were used to automate everything(read bash script to understand the flow of execution).
 
